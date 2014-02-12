@@ -1,0 +1,19 @@
+name = Kelleher Auctions
+description = Please provide a description for your theme.
+base theme = omega
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = css/kelleher-auctions.normalize.css
+stylesheets[all][] = css/kelleher-auctions.hacks.css
+stylesheets[all][] = css/kelleher-auctions.styles.css
+stylesheets[all][] = css/kelleher-auctions.no-query.css
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = js/kelleher-auctions.behaviors.js
